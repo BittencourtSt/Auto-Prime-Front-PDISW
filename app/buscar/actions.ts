@@ -1,7 +1,7 @@
 'use server';
 import { CarroResponse, Carro } from '@/types/Carro';
 
-const API_URL = "http://18.231.156.122:8080/getCarro";
+const API_URL = "http://18.230.214.167:8080/getCarro";
 
 export async function findCarro(modeloCarro: string): Promise<CarroResponse> {
   if (!modeloCarro) {

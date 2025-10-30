@@ -11,7 +11,7 @@ import {
     cellStyle 
 } from '../../styles/sharedStyles';
 
-const API_URL = "http://18.231.156.122:8080/listarCarros";
+const API_URL = "http://18.230.214.167:8080/listarCarros";
 
 // Função para buscar os dados no servidor
 async function getCarros(): Promise<Carro[] | null> {

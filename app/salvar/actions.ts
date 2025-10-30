@@ -1,7 +1,7 @@
 'use server';
 import { revalidatePath } from 'next/cache';
 
-const API_URL = "http://18.231.156.122:8080/saveCarro";
+const API_URL = "http://18.230.214.167:8080/saveCarro";
 
 export async function salvarCarro(formData: FormData): Promise<string> {
     const modelo = formData.get('modeloCarro') as string;

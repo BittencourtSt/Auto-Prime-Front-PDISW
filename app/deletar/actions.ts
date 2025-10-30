@@ -2,7 +2,7 @@
 import { revalidatePath } from 'next/cache';
 import { CarroResponse } from '@/types/Carro';
 
-const API_URL = "http://18.231.156.122:8080/deleteCarro";
+const API_URL = "http://18.230.214.167:8080/deleteCarro";
 
 export async function deletarCarro(formData: FormData): Promise<string> {
     const modelo = formData.get('ModeloCarro') as string;
